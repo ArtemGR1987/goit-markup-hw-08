@@ -1,0 +1,42 @@
+/* Постоянные клиенты */
+.clients-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+    margin-bottom: 50px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-list_link {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    color: #afb1b8;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-list_link:hover,
+.clients-list_link:focus {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+.clients-logo {
+    fill: currentColor;
+}
