@@ -47,12 +47,27 @@ textarea {
 }
 
 .container {
-  margin: 0 auto;
-  width: 1200px;
+  width: 100%;
   padding: 0 15px;
-  outline: 2px solid tomato;
+  margin: 0 auto;
+  outline: 1px solid tomato;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -98,6 +113,11 @@ textarea {
   padding-bottom: 32px;
   -webkit-padding-start: 0px;
           padding-inline-start: 0px;
+}
+@media screen and (max-width: 480px) {
+  .nav__list {
+    display: none;
+  }
 }
 
 .nav__list .nav__item {
@@ -151,6 +171,11 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+@media screen and (max-width: 480px) {
+  .contacts {
+    display: none;
+  }
 }
 
 .contacts :hover,
