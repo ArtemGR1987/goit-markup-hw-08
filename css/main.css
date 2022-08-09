@@ -114,7 +114,7 @@ textarea {
   -webkit-padding-start: 0px;
           padding-inline-start: 0px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .nav__list {
     display: none;
   }
@@ -172,7 +172,7 @@ textarea {
   display: -ms-flexbox;
   display: flex;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .contacts {
     display: none;
   }
@@ -574,7 +574,7 @@ textarea {
   display: flex;
   padding-top: 0px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .our-advantages {
     display: block;
     width: 450px;
@@ -584,13 +584,13 @@ textarea {
 .our-advantages__item {
   margin-right: 30px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .our-advantages__item {
     display: inline-block;
     width: 450px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .our-advantages__item:not(:last-child) {
     margin-bottom: 30px;
     margin-right: 0px;
@@ -627,7 +627,7 @@ textarea {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .advantages-title {
     text-align: center;
   }
@@ -643,7 +643,7 @@ textarea {
   margin-bottom: 0px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .advantages {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -654,7 +654,7 @@ textarea {
 .work-examples {
   padding-top: 0px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .work-examples {
     display: none;
   }
@@ -718,7 +718,7 @@ textarea {
 .team {
   background-color: var(--team-background-color);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .team {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -740,7 +740,7 @@ textarea {
   display: -ms-flexbox;
   display: flex;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .team-list {
     display: block;
   }
@@ -842,7 +842,7 @@ textarea {
           justify-content: center;
   gap: 30px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .clients-list {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -881,7 +881,7 @@ textarea {
   fill: currentColor;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .clients {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -901,7 +901,7 @@ textarea {
       -ms-flex-align: baseline;
           align-items: baseline;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .content {
     display: block;
     text-align: center;
@@ -949,7 +949,7 @@ textarea {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .footer-adress-list {
     padding-left: 124px;
     padding-bottom: 60px;
@@ -1002,11 +1002,12 @@ textarea {
 .join {
   margin-left: 70px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .join {
     padding-left: 137px;
     margin-left: 0px;
     width: 206px;
+    padding-bottom: 60px;
   }
 }
 
@@ -1033,7 +1034,7 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .join-list {
     width: 206px;
   }
@@ -1086,7 +1087,7 @@ textarea {
   display: -ms-flexbox;
   display: flex;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .subscribe-form {
     display: block;
   }
@@ -1113,6 +1114,11 @@ textarea {
   background-color: #2f303a;
   padding-left: 16px;
 }
+@media screen and (max-width: 768px) {
+  .subscribe-mail-line {
+    width: 450px;
+  }
+}
 
 .subscribe-button {
   margin-left: 12px;
@@ -1138,6 +1144,12 @@ textarea {
   letter-spacing: 0.06em;
   cursor: pointer;
   color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .subscribe-button {
+    margin-left: 123px;
+    margin-top: 20px;
+  }
 }
 
 /* Список Кнопок */

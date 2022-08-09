@@ -7,7 +7,7 @@
     display: flex;
     align-items: baseline;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
            display: block;
            text-align: center;
         }
@@ -55,7 +55,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
         padding-left: 124px;
         padding-bottom: 60px;
         }
@@ -108,10 +108,11 @@
 .join {
     margin-left: 70px;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
             padding-left: 137px;
             margin-left: 0px;
             width: 206px;
+            padding-bottom: 60px;
         }
 }
 
@@ -135,8 +136,8 @@
     justify-content: center;
     align-items: center;
 
-    @media screen and (max-width: 480px) {
-            width: 206px;
+    @media screen and (max-width: 768px) {
+        width: 206px;
         }
 }
 
@@ -183,7 +184,7 @@
 .subscribe-form {
     display: flex;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
             display: block;
         }
 }
@@ -209,6 +210,10 @@
     background-color: #2f303a;
 
     padding-left: 16px;
+
+    @media screen and (max-width: 768px) {
+            width: 450px;
+        }
 }
 
 .subscribe-button {
@@ -232,4 +237,9 @@
     cursor: pointer;
 
     color: #ffffff;
+
+    @media screen and (max-width: 768px) {
+           margin-left: 123px;
+           margin-top: 20px;
+        }
 }

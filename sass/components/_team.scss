@@ -1,7 +1,7 @@
 .team {
     background-color: var(--team-background-color);
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
             padding-top: 60px;
             padding-bottom: 60px;
            
@@ -21,7 +21,7 @@
 .team-list {
     display: flex;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
            display: block;
         }
 }
