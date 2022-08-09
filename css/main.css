@@ -574,9 +574,27 @@ textarea {
   display: flex;
   padding-top: 0px;
 }
+@media screen and (max-width: 480px) {
+  .our-advantages {
+    display: block;
+    width: 450px;
+  }
+}
 
 .our-advantages__item {
   margin-right: 30px;
+}
+@media screen and (max-width: 480px) {
+  .our-advantages__item {
+    display: inline-block;
+    width: 450px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .our-advantages__item:not(:last-child) {
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
 }
 
 .our-advantages .our-advantages__item:last-child {
@@ -609,6 +627,11 @@ textarea {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+@media screen and (max-width: 480px) {
+  .advantages-title {
+    text-align: center;
+  }
+}
 
 .advantages-content {
   font-weight: 400;
@@ -620,9 +643,21 @@ textarea {
   margin-bottom: 0px;
 }
 
+@media screen and (max-width: 480px) {
+  .advantages {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 /* Чем мы занимаемся */
 .work-examples {
   padding-top: 0px;
+}
+@media screen and (max-width: 480px) {
+  .work-examples {
+    display: none;
+  }
 }
 
 .work-examples__title {
@@ -683,6 +718,12 @@ textarea {
 .team {
   background-color: var(--team-background-color);
 }
+@media screen and (max-width: 480px) {
+  .team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 
 .team-title {
   color: var(--title-text-color);
@@ -698,6 +739,11 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+@media screen and (max-width: 480px) {
+  .team-list {
+    display: block;
+  }
 }
 
 .team-list :nth-child(4n) {
@@ -796,6 +842,15 @@ textarea {
           justify-content: center;
   gap: 30px;
 }
+@media screen and (max-width: 480px) {
+  .clients-list {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 
 .clients-list_link {
   width: 170px;
@@ -826,6 +881,13 @@ textarea {
   fill: currentColor;
 }
 
+@media screen and (max-width: 480px) {
+  .clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 .footer {
   background-color: var(--main-background-black-color);
   padding: 60px 0;
@@ -838,6 +900,12 @@ textarea {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+}
+@media screen and (max-width: 480px) {
+  .content {
+    display: block;
+    text-align: center;
+  }
 }
 
 /* Нижний логотип */
@@ -880,6 +948,12 @@ textarea {
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+@media screen and (max-width: 480px) {
+  .footer-adress-list {
+    padding-left: 124px;
+    padding-bottom: 60px;
+  }
 }
 
 .footer-adress-list__item {
@@ -928,6 +1002,13 @@ textarea {
 .join {
   margin-left: 70px;
 }
+@media screen and (max-width: 480px) {
+  .join {
+    padding-left: 137px;
+    margin-left: 0px;
+    width: 206px;
+  }
+}
 
 .join-title {
   font-family: "Roboto";
@@ -951,6 +1032,11 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .join-list {
+    width: 206px;
+  }
 }
 
 .join-link {
@@ -999,6 +1085,11 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+@media screen and (max-width: 480px) {
+  .subscribe-form {
+    display: block;
+  }
 }
 
 .subscribe-mail-line {

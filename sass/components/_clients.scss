@@ -16,6 +16,11 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+
+    @media screen and (max-width: 480px) {
+            display: inline-flex;
+            flex-wrap: wrap;
+        }
 }
 
 .clients-list_link {
@@ -39,4 +44,11 @@
 
 .clients-logo {
     fill: currentColor;
+}
+
+.clients {
+    @media screen and (max-width: 480px) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
 }

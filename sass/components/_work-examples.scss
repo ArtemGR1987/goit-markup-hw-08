@@ -1,6 +1,9 @@
 /* Чем мы занимаемся */
 .work-examples {
     padding-top: 0px;
+    @media screen and (max-width: 480px) {
+           display: none;
+        }
 }
 
 .work-examples__title {

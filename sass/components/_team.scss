@@ -1,5 +1,11 @@
 .team {
     background-color: var(--team-background-color);
+
+    @media screen and (max-width: 480px) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+           
+        }
 }
 
 .team-title {
@@ -14,6 +20,10 @@
 
 .team-list {
     display: flex;
+
+    @media screen and (max-width: 480px) {
+           display: block;
+        }
 }
 
 .team-list :nth-child(4n) {
