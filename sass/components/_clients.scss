@@ -10,6 +10,12 @@
     color: #212121;
 
     margin-bottom: 50px;
+
+    @media screen and (max-width: 768px) {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 33px;
+        }
 }
 
 .clients-list {
