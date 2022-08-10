@@ -1391,6 +1391,7 @@ textarea {
   text-align: center;
   font-size: 20px;
   border: 1px solid blue;
+  z-index: 2;
 }
 .menu-container.is-open {
   display: block;
