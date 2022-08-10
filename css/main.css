@@ -311,6 +311,7 @@ textarea {
   border-radius: 4px;
   top: 0;
   left: 0;
+  overflow-y: scroll;
 }
 
 .modal {
@@ -1384,12 +1385,75 @@ textarea {
   top: 100%;
   left: 0;
   width: 100%;
-  height: 400px;
-  background-color: palegoldenrod;
+  height: 796px;
+  background-color: #FFFFFF;
   padding: 20px;
   text-align: center;
   font-size: 20px;
+  border: 1px solid blue;
 }
 .menu-container.is-open {
   display: block;
+}
+
+.navigation-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.navigation-list .current {
+  color: var(--accent-color);
+}
+
+.navigation-item {
+  margin-left: 40px;
+  text-align: left;
+}
+
+.studio {
+  margin-top: 48px;
+  margin-bottom: 35.71px;
+}
+
+.portfolio {
+  margin-bottom: 32px;
+}
+
+.contact {
+  margin-bottom: 302px;
+}
+
+.navigation-mail {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+}
+
+.navigation-tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.navigation-contacts-item {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.tel {
+  margin-bottom: 32px;
 }/*# sourceMappingURL=main.css.map */
