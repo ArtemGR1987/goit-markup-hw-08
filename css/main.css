@@ -1361,6 +1361,7 @@ textarea {
   padding-left: 276px;
   border: none;
   background-color: transparent;
+  z-index: 3;
 }
 
 .menu-button .icon-cross {
@@ -1382,7 +1383,7 @@ textarea {
 .menu-container {
   display: none;
   position: absolute;
-  top: 100%;
+  top: 0;
   left: 0;
   width: 100%;
   height: 796px;
