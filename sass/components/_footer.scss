@@ -186,6 +186,7 @@
 
     @media screen and (min-width: 769px) {
             text-align: center;
+            margin-top: 60px;
         }
 }
 
@@ -258,6 +259,7 @@
                 @media screen and (min-width: 769px) {
                     margin: auto;
                     margin-top: 20px;
+                    margin-bottom: 60px;
                 }
 }
 
@@ -271,5 +273,11 @@
 .subscribe-footer-box {
     @media screen and (min-width: 769px) {
             display: block;
+        }
+}
+
+.join {
+    @media screen and (min-width: 769px) {
+            margin-left: auto;
         }
 }

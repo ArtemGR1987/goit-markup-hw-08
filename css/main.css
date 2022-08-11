@@ -1268,6 +1268,7 @@ textarea {
 @media screen and (min-width: 769px) {
   .subscribe-text {
     text-align: center;
+    margin-top: 60px;
   }
 }
 
@@ -1349,6 +1350,7 @@ textarea {
   .subscribe-button {
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 60px;
   }
 }
 
@@ -1362,6 +1364,12 @@ textarea {
 @media screen and (min-width: 769px) {
   .subscribe-footer-box {
     display: block;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .join {
+    margin-left: auto;
   }
 }
 
