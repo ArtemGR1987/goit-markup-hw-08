@@ -20,6 +20,11 @@
     display: block;
     width: 450px;
   }
+    @media screen and (min-width: 769px) {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-left: 15px;
+    }
 }
 
 .our-advantages__item {
@@ -36,6 +41,12 @@
              margin-right: 0px;
            }
          }
+
+                 @media screen and (min-width: 769px) {
+                      width: 350px;
+                      margin-right: 10px;
+                      margin-bottom: 30px;
+                 }
 }
 
 .our-advantages .our-advantages__item:last-child {
@@ -87,4 +98,9 @@
       padding-top: 60px;
       padding-bottom: 60px;
     }
+
+        @media screen and (min-width: 769px) {
+          padding-top: 60px;
+          padding-bottom: 60px;
+        }
 }
