@@ -1265,6 +1265,11 @@ textarea {
   margin-bottom: 20px;
   color: #ffffff;
 }
+@media screen and (min-width: 769px) {
+  .subscribe-text {
+    text-align: center;
+  }
+}
 
 .subscribe-form {
   display: -webkit-box;
@@ -1303,6 +1308,11 @@ textarea {
     width: 450px;
   }
 }
+@media screen and (min-width: 769px) {
+  .subscribe-mail-line {
+    width: 450px;
+  }
+}
 
 .subscribe-button {
   margin-left: 12px;
@@ -1332,6 +1342,12 @@ textarea {
 @media screen and (max-width: 768px) {
   .subscribe-button {
     margin-left: 123px;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .subscribe-button {
+    margin: auto;
     margin-top: 20px;
   }
 }

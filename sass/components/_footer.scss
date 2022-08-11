@@ -183,6 +183,10 @@
     margin-bottom: 20px;
 
     color: #ffffff;
+
+    @media screen and (min-width: 769px) {
+            text-align: center;
+        }
 }
 
 .subscribe-form {
@@ -218,6 +222,10 @@
     @media screen and (max-width: 768px) {
             width: 450px;
         }
+
+                @media screen and (min-width: 769px) {
+                    width: 450px;
+                }
 }
 
 .subscribe-button {
@@ -246,6 +254,11 @@
            margin-left: 123px;
            margin-top: 20px;
         }
+
+                @media screen and (min-width: 769px) {
+                    margin: auto;
+                    margin-top: 20px;
+                }
 }
 
 .content {
