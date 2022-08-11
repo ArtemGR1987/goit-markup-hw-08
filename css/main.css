@@ -1248,6 +1248,11 @@ textarea {
 .subscribe {
   margin-left: auto;
 }
+@media screen and (min-width: 769px) {
+  .subscribe {
+    margin: auto;
+  }
+}
 
 .subscribe-text {
   font-family: "Roboto";
@@ -1328,6 +1333,19 @@ textarea {
   .subscribe-button {
     margin-left: 123px;
     margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .subscribe-footer-box {
+    display: block;
   }
 }
 

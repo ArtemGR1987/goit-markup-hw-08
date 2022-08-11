@@ -165,6 +165,10 @@
 
 .subscribe {
     margin-left: auto;
+
+    @media screen and (min-width: 769px) {
+            margin: auto;
+        }
 }
 
 .subscribe-text {
@@ -241,5 +245,18 @@
     @media screen and (max-width: 768px) {
            margin-left: 123px;
            margin-top: 20px;
+        }
+}
+
+.content {
+    @media screen and (min-width: 769px) {
+            flex-wrap: wrap;
+        }
+}
+
+
+.subscribe-footer-box {
+    @media screen and (min-width: 769px) {
+            display: block;
         }
 }
