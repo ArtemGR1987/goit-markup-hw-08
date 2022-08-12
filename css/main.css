@@ -87,6 +87,12 @@ textarea {
   color: var(--accent-color);
 }
 
+@media screen and (min-width: 769px) {
+  .footer-logo-box {
+    margin-top: 60px;
+  }
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1098,6 +1104,11 @@ textarea {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+@media screen and (min-width: 769px) {
+  .footer-logo {
+    margin-left: 115px;
+  }
+}
 
 .footer-logo :focus {
   color: var(--accent-color);
@@ -1132,6 +1143,12 @@ textarea {
   .footer-adress-list {
     padding-left: 124px;
     padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .footer-adress-list {
+    text-align: center;
+    margin-left: 76px;
   }
 }
 
@@ -1369,7 +1386,9 @@ textarea {
 
 @media screen and (min-width: 769px) {
   .join {
-    margin-left: auto;
+    margin: auto;
+    margin-top: 65px;
+    margin-right: 89px;
   }
 }
 

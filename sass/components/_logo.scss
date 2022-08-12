@@ -12,3 +12,10 @@
 .logo_web {
     color: var(--accent-color);
 }
+
+.footer-logo-box {
+@media screen and (min-width: 769px) {
+     margin-top: 60px;
+    }
+}
+
