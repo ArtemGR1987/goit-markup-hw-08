@@ -1744,7 +1744,7 @@ textarea {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
-.social-item {
+.social-item-text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -1752,4 +1752,5 @@ textarea {
   line-height: 22px;
   letter-spacing: 0.02em;
   color: #2196F3;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
