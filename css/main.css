@@ -1568,6 +1568,11 @@ textarea {
 .portfolio-list__item {
   width: 370px;
 }
+@media screen and (min-width: 769px) {
+  .portfolio-list__item {
+    width: 354px;
+  }
+}
 
 .portfolio-link {
   display: block;
