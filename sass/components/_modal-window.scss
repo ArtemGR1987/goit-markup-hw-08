@@ -35,7 +35,12 @@
     border-radius: 4px;
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    
+    @media screen and (max-width: 768px) {
+            top: 28%;
+            width: 450px;
+            height: 609px;
+        }
 }
 
 .button-close {
@@ -195,6 +200,19 @@
     padding-left: 35px;
 
     cursor: pointer;
+
+    @media screen and (max-width: 768px) {
+            font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                
+            
+                letter-spacing: 0.03em;
+            
+                color: #757575;
+        }
 }
 
 .checkbox-link {
