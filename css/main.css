@@ -215,6 +215,10 @@ textarea {
     display: -ms-flexbox;
     display: flex;
     margin: auto;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    margin-right: 0;
   }
 }
 
@@ -231,6 +235,11 @@ textarea {
     margin-right: 15px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .contacts__item {
+    margin-right: 30px;
+  }
+}
 
 .contacts__icon {
   margin-right: 10px;
@@ -243,11 +252,23 @@ textarea {
     height: 10px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .size-icon {
+    width: 16px;
+    height: 12px;
+  }
+}
 
 @media screen and (min-width: 769px) {
   .size-icon-smartphone {
     width: 10px;
     height: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .size-icon-smartphone {
+    width: 10px;
+    height: 16px;
   }
 }
 
@@ -288,6 +309,17 @@ textarea {
     padding-bottom: 0px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .contacts__mail {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
+}
 
 .contacts__tel {
   color: var(--primary-text-color);
@@ -316,6 +348,17 @@ textarea {
     letter-spacing: 0.02em;
     color: #757575;
     padding-top: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__tel {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
   }
 }
 
@@ -765,6 +808,12 @@ textarea {
     padding-bottom: 60px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .advantages {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 
 /* Чем мы занимаемся */
 .work-examples {
@@ -778,6 +827,12 @@ textarea {
 @media screen and (min-width: 769px) {
   .work-examples {
     display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .work-examples {
+    display: block;
+    padding-top: 94px;
   }
 }
 
@@ -851,6 +906,12 @@ textarea {
     padding-bottom: 60px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 
 .team-title {
   color: var(--title-text-color);
@@ -866,6 +927,18 @@ textarea {
     font-weight: 700;
     font-size: 28px;
     line-height: 33px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
   }
 }
 
@@ -893,6 +966,15 @@ textarea {
     margin-right: 15px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .team-list {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 
 .team-list :nth-child(4n) {
   margin-right: 0px;
@@ -904,7 +986,6 @@ textarea {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 30px;
 }
 @media screen and (max-width: 768px) {
   .team-list__item {
@@ -920,6 +1001,12 @@ textarea {
 @media screen and (min-width: 769px) {
   .team-list__item {
     width: 324px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-list__item {
+    width: 270px;
   }
 }
 
@@ -1016,6 +1103,18 @@ textarea {
     color: #212121;
   }
 }
+@media screen and (min-width: 1200px) {
+  .clients-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+}
 
 .clients-list {
   display: -webkit-box;
@@ -1044,6 +1143,15 @@ textarea {
         flex-wrap: wrap;
   }
 }
+@media screen and (min-width: 1200px) {
+  .clients-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
 
 .clients-list_link {
   width: 170px;
@@ -1068,6 +1176,11 @@ textarea {
     width: 226px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .clients-list_link {
+    width: 170px;
+  }
+}
 
 .clients-list_link:hover,
 .clients-list_link:focus {
@@ -1089,6 +1202,12 @@ textarea {
   .clients {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
