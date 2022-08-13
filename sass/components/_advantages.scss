@@ -25,6 +25,11 @@
       justify-content: flex-start;
       margin-left: 15px;
     }
+
+         @media screen and (min-width: 1200px) {
+           display: flex;
+           flex-wrap: inherit;
+         }
 }
 
 .our-advantages__item {
