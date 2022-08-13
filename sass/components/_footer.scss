@@ -1,6 +1,11 @@
 .footer {
     background-color: var(--main-background-black-color);
     padding: 60px 0;
+
+    @media screen and (min-width: 1200px) {
+            padding-bottom: 60px;
+            padding-top: 0px;
+        }
 }
 
 .content {
@@ -28,6 +33,10 @@
     @media screen and (min-width: 769px) {
             margin-left: 115px;
         }
+
+                @media screen and (min-width: 1200px) {
+                    margin-left: 0px;
+                }
 }
 
 .footer-logo :focus {
@@ -68,6 +77,11 @@
                 text-align: center;
                 margin-left: 76px;
                            }
+
+                                                        @media screen and (min-width: 1200px) {
+                                                            margin-left: 0px;
+                                                            text-align: inherit;
+                                                        }
 }
 
 .footer-adress-list__item {
@@ -123,6 +137,16 @@
             width: 206px;
             padding-bottom: 60px;
         }
+
+                 @media screen and (min-width: 769px) {
+                     margin: auto;
+                     margin-top: 65px;
+                     margin-right: 89px;
+                 }
+
+                 @media screen and (min-width: 1200px) {
+                     margin-left: 70px;
+                 }
 }
 
 .join-title {
@@ -236,6 +260,11 @@
                 @media screen and (min-width: 769px) {
                     width: 450px;
                 }
+                
+                                @media screen and (min-width: 1200px) {
+                                    width: 358px;
+                                }
+
 }
 
 .subscribe-button {
@@ -270,6 +299,11 @@
                     margin-top: 20px;
                     margin-bottom: 60px;
                 }
+
+                                @media screen and (min-width: 1200px) {
+                                    margin-left: 12px;
+                                    margin-top: 0px;
+                                }
 }
 
 .content {
@@ -283,12 +317,10 @@
     @media screen and (min-width: 769px) {
             display: block;
         }
+
+                @media screen and (min-width: 1200px) {
+                    display: flex;
+                    align-items: baseline;
+                }
 }
 
-.join {
-    @media screen and (min-width: 769px) {
-                margin: auto;
-                margin-top: 65px;
-                margin-right: 89px;
-        }
-}

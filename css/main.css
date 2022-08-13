@@ -1276,6 +1276,12 @@ textarea {
   background-color: var(--main-background-black-color);
   padding: 60px 0;
 }
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding-bottom: 60px;
+    padding-top: 0px;
+  }
+}
 
 .content {
   display: -webkit-box;
@@ -1306,6 +1312,11 @@ textarea {
 @media screen and (min-width: 769px) {
   .footer-logo {
     margin-left: 115px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-logo {
+    margin-left: 0px;
   }
 }
 
@@ -1348,6 +1359,12 @@ textarea {
   .footer-adress-list {
     text-align: center;
     margin-left: 76px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-adress-list {
+    margin-left: 0px;
+    text-align: inherit;
   }
 }
 
@@ -1403,6 +1420,18 @@ textarea {
     margin-left: 0px;
     width: 206px;
     padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .join {
+    margin: auto;
+    margin-top: 65px;
+    margin-right: 89px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .join {
+    margin-left: 70px;
   }
 }
 
@@ -1530,6 +1559,11 @@ textarea {
     width: 450px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .subscribe-mail-line {
+    width: 358px;
+  }
+}
 
 .subscribe-button {
   margin-left: 12px;
@@ -1569,6 +1603,12 @@ textarea {
     margin-bottom: 60px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .subscribe-button {
+    margin-left: 12px;
+    margin-top: 0px;
+  }
+}
 
 @media screen and (min-width: 769px) {
   .content {
@@ -1582,12 +1622,14 @@ textarea {
     display: block;
   }
 }
-
-@media screen and (min-width: 769px) {
-  .join {
-    margin: auto;
-    margin-top: 65px;
-    margin-right: 89px;
+@media screen and (min-width: 1200px) {
+  .subscribe-footer-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
 }
 
