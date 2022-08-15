@@ -2,10 +2,29 @@
     background-color: var(--main-background-black-color);
     padding: 60px 0;
 
+    @media screen and (max-width: 768px) {
+            background-color: #F5F5F5;
+        }
+
+    @media screen and (min-width: 769px) {
+            background-color: #F5F5F5;
+        }
+        
     @media screen and (min-width: 1200px) {
             padding-bottom: 60px;
             padding-top: 0px;
+            background-color: #2F303A;
         }
+}
+
+.footer__container {
+    @media screen and (min-width: 769px) {
+            background-color: #2F303A;
+        }
+
+                @media screen and (max-width: 768px) {
+                   background-color: #2F303A;
+                }
 }
 
 .content {
