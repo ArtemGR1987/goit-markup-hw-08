@@ -4,6 +4,7 @@
     text-align: center;
     @media screen and (max-width: 768px) {
             padding-bottom: 60px;
+            padding-top: 60px;
         }
 
 }
@@ -24,7 +25,7 @@
 .filter-list {
     list-style: none;
 
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
     display: flex;
     justify-content: center;
@@ -33,12 +34,11 @@
                 display: inline-flex;
                 flex-wrap: wrap;
                 justify-content: left;
+                gap: 8px;
+                row-gap: 15px;
         }
 }
 
-.filter-item {
-    margin-right: 8px;
-}
 
 .filter-btn {
     padding: 6px 22px;
@@ -78,8 +78,3 @@
 }
 
 
-.up {
-    @media screen and (max-width: 768px) {
-            margin-top: 15px;
-        }
-}

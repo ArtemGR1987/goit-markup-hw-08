@@ -1,6 +1,6 @@
 .menu-button {
     display: inline-flex;
-    margin-left: auto;
+   margin-left: auto;
     border: none;
     background-color: transparent;
 
@@ -30,11 +30,11 @@
 
 .menu-container {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 796px;
+    height: 100%;
 
     background-color: #FFFFFF;;
     padding: 20px;
@@ -45,8 +45,13 @@
     z-index: 2;
 
     &.is-open {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
+}
+
+.navigation {
+    margin-bottom: auto;
 }
 
 .navigation-link {
@@ -66,28 +71,25 @@
 }
 
 .navigation-item {
-    margin-left: 40px;
+    padding-left: 40px;
     text-align: left;
 }
 
 .studio {
-    margin-top: 48px;
-    margin-bottom: 35.71px;
+   margin-bottom: 35.71px;
 }
 
 .portfolio {
-    margin-bottom: 32px;
+   margin-bottom: 32px;
 }
 
-.contact {
-    margin-bottom: 302px;
-}
+
 
 .navigation-mail {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 34px;
+    font-size: 20px;
     line-height: 40px;
     letter-spacing: 0.02em;
     color: #2196F3;
@@ -97,7 +99,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
     letter-spacing: 0.02em;
     
@@ -114,9 +116,10 @@
 }
 
 .social-list {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 64px;
-    margin-bottom: 48px;
+    
 }
 
 .social {
@@ -125,7 +128,8 @@
 }
 
 .social-item:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 10px;
+    padding-right: 10px;
     border-right: 1px solid rgba(33, 33, 33, 0.2);
    
 }
