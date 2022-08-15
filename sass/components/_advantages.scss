@@ -18,7 +18,7 @@
 
   @media screen and (max-width: 768px) {
     display: block;
-    width: 450px;
+    width: 100%;
   }
     @media screen and (min-width: 769px) {
       flex-wrap: wrap;
@@ -37,7 +37,7 @@
 
   @media screen and (max-width: 768px) {
       display: inline-block;
-      width: 450px;
+      width: 100%;
     }
 
          &:not(:last-child) {
@@ -64,7 +64,7 @@
   justify-content: center;
   background-color: #f5f4fa;
   border-radius: 4px;
-  width: auto;
+  width: 100%;
   height: 120px;
   
 }
