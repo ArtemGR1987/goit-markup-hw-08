@@ -974,7 +974,7 @@ textarea {
 }
 @media screen and (max-width: 768px) {
   .team {
-    padding-top: 60px;
+    padding-top: 0px;
     padding-bottom: 60px;
   }
 }
@@ -1272,7 +1272,7 @@ textarea {
 
 @media screen and (max-width: 768px) {
   .clients {
-    padding-top: 60px;
+    padding-top: 0px;
     padding-bottom: 60px;
   }
 }
