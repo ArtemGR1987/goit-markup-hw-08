@@ -2,12 +2,14 @@
     background-color: var(--main-background-black-color);
     padding: 60px 0;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
             background-color: #F5F5F5;
+            padding-top: 0px;
         }
 
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 768px) {
             background-color: #F5F5F5;
+            padding-top: 0px;
         }
         
     @media screen and (min-width: 1200px) {
@@ -18,11 +20,11 @@
 }
 
 .footer__container {
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 768px) {
             background-color: #2F303A;
         }
 
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width: 767px) {
                    background-color: #2F303A;
                 }
 }
@@ -31,7 +33,7 @@
     display: flex;
     align-items: baseline;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
            display: block;
            text-align: center;
         }
@@ -49,7 +51,7 @@
     letter-spacing: 0.03em;
     text-decoration: none;
 
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 768px) {
             margin-left: 115px;
         }
 
@@ -81,7 +83,7 @@
 }
 
 .footer-logo-box {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
             margin-bottom: 60px;
         }
 }
@@ -95,7 +97,7 @@
 
   
 
-                           @media screen and (min-width: 769px) {
+                           @media screen and (min-width: 768px) {
                 text-align: center;
                 margin-left: 76px;
                            }
@@ -153,14 +155,14 @@
 .join {
     margin-left: 70px;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
             
             margin-left: 0px;
             
             margin-bottom: 60px;
         }
 
-                 @media screen and (min-width: 769px) {
+                 @media screen and (min-width: 768px) {
                      margin: auto;
                      margin-top: 65px;
                      margin-right: 89px;
@@ -219,7 +221,7 @@
 .subscribe {
     margin-left: auto;
 
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 768px) {
             margin: auto;
         }
 }
@@ -237,7 +239,7 @@
 
     color: #ffffff;
 
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 768px) {
             text-align: start;
             margin-top: 60px;
         }
@@ -246,7 +248,7 @@
 .subscribe-form {
     display: flex;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
             display: block;
         }
 }
@@ -273,11 +275,11 @@
 
     padding-left: 16px;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
             width: 100%;
         }
 
-                @media screen and (min-width: 769px) {
+                @media screen and (min-width: 768px) {
                     width: 450px;
                 }
                 
@@ -309,12 +311,12 @@
 
     color: #ffffff;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
          margin: 0 auto;
          margin-top: 20px;
         }
 
-                @media screen and (min-width: 769px) {
+                @media screen and (min-width: 768px) {
                     margin: auto;
                     margin-top: 20px;
                     margin-bottom: 60px;
@@ -327,14 +329,14 @@
 }
 
 .content {
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 768px) {
             flex-wrap: wrap;
         }
 }
 
 
 .subscribe-footer-box {
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 768px) {
             display: block;
         }
 

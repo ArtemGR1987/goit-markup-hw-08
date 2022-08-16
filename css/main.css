@@ -93,7 +93,7 @@ textarea {
   color: var(--accent-color);
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .footer-logo-box {
     margin-top: 60px;
   }
@@ -126,7 +126,7 @@ textarea {
   -webkit-padding-start: 0px;
           padding-inline-start: 0px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .nav__list {
     display: none;
   }
@@ -136,7 +136,7 @@ textarea {
     display: none;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .nav__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -197,12 +197,12 @@ textarea {
   display: -ms-flexbox;
   display: flex;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .contacts {
     display: none;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .contacts {
     display: none;
     display: block;
@@ -230,7 +230,7 @@ textarea {
 .contacts__item {
   margin-right: 50px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .contacts__item {
     margin-right: 15px;
   }
@@ -246,7 +246,7 @@ textarea {
   fill: currentColor;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .size-icon {
     width: 14px;
     height: 10px;
@@ -259,7 +259,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .size-icon-smartphone {
     width: 10px;
     height: 14px;
@@ -297,7 +297,7 @@ textarea {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .contacts__mail {
     font-family: "Roboto";
     font-style: normal;
@@ -338,7 +338,7 @@ textarea {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .contacts__tel {
     font-family: "Roboto";
     font-style: normal;
@@ -374,7 +374,7 @@ textarea {
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .solutions {
     height: 400px;
     max-width: 768px;
@@ -404,7 +404,7 @@ textarea {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .solutions__title {
     width: 300px;
     font-family: "Roboto";
@@ -418,7 +418,7 @@ textarea {
     color: #FFFFFF;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .solutions__title {
     width: 360px;
     height: 84px;
@@ -518,7 +518,7 @@ textarea {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .modal {
     top: 40%;
     width: 300px;
@@ -719,7 +719,7 @@ textarea {
   position: fixed;
   cursor: pointer;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .label-text {
     font-family: "Roboto";
     font-style: normal;
@@ -759,7 +759,7 @@ textarea {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .button-submit {
     margin: auto;
     margin-top: 30px;
@@ -786,20 +786,20 @@ textarea {
   display: flex;
   padding-top: 0px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .our-advantages {
     display: block;
     width: 100%;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .our-advantages {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    margin-left: 15px;
+    gap: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -816,19 +816,19 @@ textarea {
 .our-advantages__item {
   margin-right: 30px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .our-advantages__item {
     display: inline-block;
     width: 100%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .our-advantages__item:not(:last-child) {
     margin-bottom: 30px;
     margin-right: 0px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .our-advantages__item {
     width: 354px;
     margin: auto;
@@ -866,7 +866,7 @@ textarea {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .advantages-title {
     text-align: center;
   }
@@ -882,13 +882,13 @@ textarea {
   margin-bottom: 0px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .advantages {
     padding-top: 60px;
     padding-bottom: 60px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .advantages {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -905,12 +905,12 @@ textarea {
 .work-examples {
   padding-top: 0px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .work-examples {
     display: none;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .work-examples {
     display: none;
   }
@@ -980,13 +980,13 @@ textarea {
 .team {
   background-color: var(--team-background-color);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .team {
-    padding-top: 60px;
+    padding-top: 0px;
     padding-bottom: 60px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .team {
     padding-top: 0px;
     padding-bottom: 60px;
@@ -1008,7 +1008,7 @@ textarea {
   text-align: center;
   letter-spacing: 0.03em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .team-title {
     font-weight: 700;
     font-size: 28px;
@@ -1033,12 +1033,12 @@ textarea {
   display: -ms-flexbox;
   display: flex;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .team-list {
     display: block;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .team-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1069,18 +1069,18 @@ textarea {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .team-list__item {
     text-align: center;
     margin-right: 0px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .team-list__item:not(:last-child) {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .team-list__item {
     width: 324px;
   }
@@ -1165,14 +1165,14 @@ textarea {
   color: #212121;
   margin-bottom: 50px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .clients-title {
     font-weight: 700;
     font-size: 28px;
     line-height: 33px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .clients-title {
     font-family: "Roboto";
     font-style: normal;
@@ -1206,7 +1206,7 @@ textarea {
           justify-content: center;
   gap: 30px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .clients-list {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -1215,7 +1215,7 @@ textarea {
         flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .clients-list {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -1252,7 +1252,7 @@ textarea {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .clients-list_link {
     width: 226px;
   }
@@ -1273,13 +1273,13 @@ textarea {
   fill: currentColor;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .clients {
-    padding-top: 60px;
+    padding-top: 0px;
     padding-bottom: 60px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .clients {
     padding-top: 0px;
     padding-bottom: 60px;
@@ -1295,14 +1295,16 @@ textarea {
   background-color: var(--main-background-black-color);
   padding: 60px 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer {
     background-color: #F5F5F5;
+    padding-top: 0px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .footer {
     background-color: #F5F5F5;
+    padding-top: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1313,12 +1315,12 @@ textarea {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .footer__container {
     background-color: #2F303A;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer__container {
     background-color: #2F303A;
   }
@@ -1332,7 +1334,7 @@ textarea {
       -ms-flex-align: baseline;
           align-items: baseline;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .content {
     display: block;
     text-align: center;
@@ -1350,7 +1352,7 @@ textarea {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .footer-logo {
     margin-left: 115px;
   }
@@ -1381,7 +1383,7 @@ textarea {
   color: var(--accent-color);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer-logo-box {
     margin-bottom: 60px;
   }
@@ -1393,7 +1395,7 @@ textarea {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .footer-adress-list {
     text-align: center;
     margin-left: 76px;
@@ -1452,13 +1454,13 @@ textarea {
 .join {
   margin-left: 70px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .join {
     margin-left: 0px;
     margin-bottom: 60px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .join {
     margin: auto;
     margin-top: 65px;
@@ -1524,7 +1526,7 @@ textarea {
 .subscribe {
   margin-left: auto;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .subscribe {
     margin: auto;
   }
@@ -1541,7 +1543,7 @@ textarea {
   margin-bottom: 20px;
   color: #ffffff;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .subscribe-text {
     text-align: start;
     margin-top: 60px;
@@ -1553,7 +1555,7 @@ textarea {
   display: -ms-flexbox;
   display: flex;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .subscribe-form {
     display: block;
   }
@@ -1580,12 +1582,12 @@ textarea {
   background-color: #2f303a;
   padding-left: 16px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .subscribe-mail-line {
     width: 100%;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .subscribe-mail-line {
     width: 450px;
   }
@@ -1621,13 +1623,13 @@ textarea {
   cursor: pointer;
   color: #ffffff;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .subscribe-button {
     margin: 0 auto;
     margin-top: 20px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .subscribe-button {
     margin: auto;
     margin-top: 20px;
@@ -1641,14 +1643,14 @@ textarea {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .content {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .subscribe-footer-box {
     display: block;
   }
@@ -1668,13 +1670,13 @@ textarea {
 .filter {
   text-align: center;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .filter {
     padding-bottom: 60px;
     padding-top: 60px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .filter {
     padding-bottom: 0px;
     padding-top: 60px;
@@ -1705,7 +1707,7 @@ textarea {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .filter-list {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -1738,7 +1740,7 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .filter-btn {
     font-family: "Roboto";
     font-style: normal;
@@ -1828,7 +1830,7 @@ textarea {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .portfolio-list {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1839,7 +1841,7 @@ textarea {
 .portfolio-list__item {
   width: 370px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .portfolio-list__item {
     width: 354px;
   }
