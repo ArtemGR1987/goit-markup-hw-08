@@ -1298,7 +1298,7 @@ textarea {
 @media screen and (max-width: 767px) {
   .footer {
     background-color: #F5F5F5;
-    padding-top: 0px;
+    padding-top: 60px;
   }
 }
 @media screen and (min-width: 768px) {
