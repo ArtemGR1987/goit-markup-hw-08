@@ -388,6 +388,7 @@ textarea {
     max-width: 1600px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Hero.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Hero.jpg);
+    padding-top: 200px;
   }
 }
 
@@ -808,6 +809,7 @@ textarea {
     display: flex;
     -ms-flex-wrap: inherit;
         flex-wrap: inherit;
+    gap: 30px;
   }
 }
 
@@ -916,7 +918,7 @@ textarea {
 @media screen and (min-width: 1200px) {
   .work-examples {
     display: block;
-    padding-top: 94px;
+    padding-bottom: 0px;
   }
 }
 
@@ -980,7 +982,7 @@ textarea {
 }
 @media screen and (max-width: 768px) {
   .team {
-    padding-top: 0px;
+    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
@@ -1043,11 +1045,7 @@ textarea {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    margin-left: 15px;
-    margin-right: 15px;
+    gap: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1085,7 +1083,6 @@ textarea {
 @media screen and (min-width: 769px) {
   .team-list__item {
     width: 324px;
-    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1278,19 +1275,18 @@ textarea {
 
 @media screen and (max-width: 768px) {
   .clients {
-    padding-top: 0px;
+    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 769px) {
   .clients {
-    padding-top: 60px;
+    padding-top: 0px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .clients {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -1547,7 +1543,7 @@ textarea {
 }
 @media screen and (min-width: 769px) {
   .subscribe-text {
-    text-align: center;
+    text-align: start;
     margin-top: 60px;
   }
 }
@@ -1672,9 +1668,15 @@ textarea {
 .filter {
   text-align: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 769px) {
   .filter {
     padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .filter {
+    padding-bottom: 0px;
     padding-top: 60px;
   }
 }
@@ -1844,7 +1846,14 @@ textarea {
 }
 
 .portfolio-link {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
   text-align: initial;
 }
 
@@ -1866,6 +1875,9 @@ textarea {
   border: 1px solid #eeeeee;
   border-top: none;
   padding: 20px 24px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .portfolio-text-title {
