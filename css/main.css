@@ -832,7 +832,6 @@ textarea {
   .our-advantages__item {
     width: 354px;
     margin: auto;
-    margin-bottom: 30px;
   }
 }
 
@@ -877,7 +876,6 @@ textarea {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  width: 270px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -982,7 +980,7 @@ textarea {
 }
 @media screen and (max-width: 767px) {
   .team {
-    padding-top: 0px;
+    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
@@ -1063,7 +1061,6 @@ textarea {
 }
 
 .team-list__item {
-  margin-right: 30px;
   background: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1078,11 +1075,6 @@ textarea {
 @media screen and (max-width: 767px) {
   .team-list__item:not(:last-child) {
     margin-bottom: 30px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .team-list__item {
-    width: 324px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1275,7 +1267,7 @@ textarea {
 
 @media screen and (max-width: 767px) {
   .clients {
-    padding-top: 0px;
+    padding-top: 60px;
     padding-bottom: 0px;
   }
 }
@@ -1297,20 +1289,18 @@ textarea {
 }
 @media screen and (max-width: 767px) {
   .footer {
-    background-color: #F5F5F5;
     padding-top: 60px;
   }
 }
 @media screen and (min-width: 768px) {
   .footer {
-    background-color: #F5F5F5;
     padding-top: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer {
     padding-bottom: 60px;
-    padding-top: 0px;
+    padding-top: 60px;
     background-color: #2F303A;
   }
 }
@@ -1318,11 +1308,17 @@ textarea {
 @media screen and (min-width: 768px) {
   .footer__container {
     background-color: #2F303A;
+    padding-top: 60px;
   }
 }
 @media screen and (max-width: 767px) {
   .footer__container {
     background-color: #2F303A;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__container {
+    padding-top: 0px;
   }
 }
 
@@ -1386,6 +1382,11 @@ textarea {
 @media screen and (max-width: 767px) {
   .footer-logo-box {
     margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-logo-box {
+    margin-top: 0px;
   }
 }
 
@@ -1460,18 +1461,6 @@ textarea {
     margin-bottom: 60px;
   }
 }
-@media screen and (min-width: 768px) {
-  .join {
-    margin: auto;
-    margin-top: 65px;
-    margin-right: 89px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .join {
-    margin-left: 70px;
-  }
-}
 
 .join-title {
   font-family: "Roboto";
@@ -1481,8 +1470,14 @@ textarea {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-align: center;
   color: #ffffff;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .join-title {
+    text-align: start;
+  }
 }
 
 .join-list {
@@ -1524,11 +1519,13 @@ textarea {
 
 /* Підпишіться на розсилку */
 .subscribe {
+  margin-right: auto;
   margin-left: auto;
+  margin-top: 60px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .subscribe {
-    margin: auto;
+    margin-top: 0px;
   }
 }
 
@@ -1545,8 +1542,12 @@ textarea {
 }
 @media screen and (min-width: 768px) {
   .subscribe-text {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe-text {
     text-align: start;
-    margin-top: 60px;
   }
 }
 
@@ -1678,7 +1679,7 @@ textarea {
 }
 @media screen and (max-width: 767px) {
   .filter {
-    padding-bottom: 0px;
+    padding-bottom: 60px;
     padding-top: 60px;
   }
 }
@@ -1699,7 +1700,8 @@ textarea {
 
 .filter-list {
   list-style: none;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  gap: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

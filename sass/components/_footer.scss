@@ -3,18 +3,18 @@
     padding: 60px 0;
 
     @media screen and (max-width: 767px) {
-            background-color: #F5F5F5;
+            
             padding-top: 60px;
         }
 
     @media screen and (min-width: 768px) {
-            background-color: #F5F5F5;
+            
             padding-top: 0px;
         }
         
     @media screen and (min-width: 1200px) {
             padding-bottom: 60px;
-            padding-top: 0px;
+            padding-top: 60px;
             background-color: #2F303A;
         }
 }
@@ -22,11 +22,16 @@
 .footer__container {
     @media screen and (min-width: 768px) {
             background-color: #2F303A;
+            padding-top: 60px;
         }
 
                 @media screen and (max-width: 767px) {
                    background-color: #2F303A;
                 }
+
+                                @media screen and (min-width: 1200px) {
+                                    padding-top: 0px;
+                                }
 }
 
 .content {
@@ -86,6 +91,10 @@
     @media screen and (max-width: 767px) {
             margin-bottom: 60px;
         }
+
+                @media screen and (min-width: 768px) {
+                    margin-top: 0px;
+                }
 }
 
 .footer-adress-list {
@@ -162,15 +171,9 @@
             margin-bottom: 60px;
         }
 
-                 @media screen and (min-width: 768px) {
-                     margin: auto;
-                     margin-top: 65px;
-                     margin-right: 89px;
-                 }
+                 
 
-                 @media screen and (min-width: 1200px) {
-                     margin-left: 70px;
-                 }
+                 
 }
 
 .join-title {
@@ -181,9 +184,14 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: center;
 
     color: #ffffff;
     margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px) {
+            text-align: start;
+        }
 
     
 }
@@ -219,12 +227,15 @@
 /* Підпишіться на розсилку */
 
 .subscribe {
-    margin-left: auto;
+    margin-right: auto;
+        margin-left: auto;
+        margin-top: 60px;
 
-    @media screen and (min-width: 768px) {
-            margin: auto;
-        }
-}
+        @media screen and (min-width: 1200px) {
+                margin-top: 0px;
+            }
+    }
+
 
 .subscribe-text {
     font-family: "Roboto";
@@ -240,9 +251,13 @@
     color: #ffffff;
 
     @media screen and (min-width: 768px) {
-            text-align: start;
-            margin-top: 60px;
+            text-align: center;
+            
         }
+
+                 @media screen and (min-width: 1200px) {
+                      text-align: start;
+                 }
 }
 
 .subscribe-form {
